@@ -1,0 +1,17 @@
+import random
+cards=(2,3,4,5,6,7,8,9 ,"Jack","Queen","King","Ace")
+cast=("pici", "chervi", "bybni", "vini")
+a=random.choice(cards)
+b=random.choice(cards)
+
+c=random.choice(cast)
+v=random.choice(cast)
+print("ваши карты:",a,c,";",b,v)
+
+s=random.choice(cards)
+d=random.choice(cards)
+f=random.choice(cards)
+l=random.choice(cast)
+k=random.choice(cast)
+j=random.choice(cast)
+print("карты на столе:",s,l,";",d,k,";",f,j)
